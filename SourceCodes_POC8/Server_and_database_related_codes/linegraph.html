@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pollution and sound monitoring  - POC8</title>
+  <style>/*define the style of html object to use, here it's a chart container*/
+    .chart-container {
+      width: 640px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chart-container">
+    <canvas id="mycanvas"></canvas><!--the canva element is useful for using an external script to modify a given zone, here we'll use the java script file linegraph pollution -->
+  </div>
+
+  <!-- javascript -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/Chart.min.js"></script>
+  <script type="text/javascript" src="js/linegraphpollution.js"></script>
+</body>
+
+<div class="chart-container">
+  <canvas id="mycanvas2"></canvas><!--we define a second canva to display the second graphic, the one for the sound-->
+</div>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/Chart.min.js"></script>
+  <script type="text/javascript" src="js/linegraphsound.js"></script>
+</html>

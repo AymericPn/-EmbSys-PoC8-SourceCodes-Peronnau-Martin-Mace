@@ -1,0 +1,1 @@
+This repository needs to be copied and paste to the xampp distribution repository, otherwise you won't be able to access the codes via localhost
